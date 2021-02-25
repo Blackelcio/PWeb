@@ -1,0 +1,35 @@
+body{
+    background-color: #f8f800;
+}
+
+h1{
+    margin: 0px;
+    padding: 0px;
+    color: 00FF00;
+    font-size: 80px;
+}
+
+
+p{
+    color: #0000FF;
+
+}
+
+
+header, div, h2 {
+    display: flex;
+    background-color: #ff0;
+    justify-content: center;
+}
+
+
+div{
+    width: 100%;
+    height: 100px;
+}
+
+#introducao{
+    padding: 10px;
+    margin-top: 50px;
+    color: darkblue;
+}
