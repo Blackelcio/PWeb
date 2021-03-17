@@ -1,0 +1,64 @@
+header{
+    margin: 0px;
+    padding-left: 0px;
+    border: 2px solid yellow;
+    background-color: blue;
+    width: 1343px;
+    height: 150px;
+}
+
+nav{
+    border: 2px solid red;
+    margin-left: 200px;
+    width: 800px;
+    height: 100px;
+    padding: 50px;
+    display: flex;
+    vertical-align: middle;
+}
+
+section{
+    border: 2px solid darkblue;
+    margin-left: 200px;
+    margin-top: 0px;
+    width: 900px;
+    height: 1044px;
+}
+
+body{
+    background-color: blue;
+    margin: 0px;
+}
+
+table,tr,td{
+    background-color: yellow;
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 145px;
+    width: 1343px;
+    border-spacing: 0px;
+}
+
+a:link, a:visited{
+    font-size: 40px;
+    color:yellow;
+    padding: 14px 30px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+a:hover, a:active{
+    font-size: 50px;
+    color: orange;
+}
+
+.botaoDB{
+    background-color: darkblue;
+    border-radius: 25px;
+}
+
+.botaoDG{
+    background-color: gold;
+    border-radius: 25px;
+}
