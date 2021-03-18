@@ -1,3 +1,5 @@
+\*Atualizado!*\
+
 var aluno;
 var nota1 = 0;
 var nota2 = 0;
@@ -12,7 +14,7 @@ nota3 = prompt("Digite a sua nota 3","Digite aqui!");
 
 media = (parseFloat(nota1) + parseFloat(nota2) + parseFloat(nota3))/3;
 
-document.write("Média do aluno " + aluno);
+document.write("Media do aluno " + aluno);
 
-document.write("<br>Sua média é " + media);
+document.write("<br>Sua media e " + Math.round(media));
 
