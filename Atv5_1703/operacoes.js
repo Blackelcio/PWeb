@@ -1,3 +1,5 @@
+/*Atualizado*/
+
 var n1, n2;
 var soma, subtracao, produto, divisao, resto;
 
