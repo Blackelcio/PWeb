@@ -15,3 +15,4 @@ catch(e){
     document.write("<br/>");
     document.write("O menor número é: "+ Math.min(numeros[1],numeros[2],numeros[3]));
 
+/*Esse é a obra prima!*/
