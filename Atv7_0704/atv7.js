@@ -10,6 +10,8 @@ catch(e){
 }
 }
 
-    document.write("O maior número é: "+ Math.max(...numeros[i]));
+
+    document.write("O maior número é: "+ Math.max(numeros[1],numeros[2],numeros[3]));
     document.write("<br/>");
-    document.write("O menor número é: "+ Math.min(...numeros[i]));
+    document.write("O menor número é: "+ Math.min(numeros[1],numeros[2],numeros[3]));
+
