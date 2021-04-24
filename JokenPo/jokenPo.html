@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jogo: Joken Pô</title>
+    <meta name= "author" content="Elcio Naves Rezende">
+    <meta name= "description" content="Atividade número 6 - disciplina PWEB - professora: Denilce">
+    <meta charset = "UTF-8">
+    <link rel="stylesheet" href="jokenPo.css"></link>
+    <script type="text/javascript" src="jokenPo.js"></script>
+</head>
+
+<body>
+
+    <div id="quadrado">
+        <h1>Jogo: Pedra, papel e tesoura</h1>
+    </div>
+
+    <br/>
+    <div id="SeuNome"> Qual é o seu nome, jogador? <t/> 
+        <input type="text" id="NomeEscrito" value="Escreva o seu nome aqui!"  onfocus="this.value=''" onchange="inserindo()"
+         onfocusout="this.value=''"/>
+        </div>
+    <br/>
+
+    <span class="a1"><p id="JogadorPoke">Jogador</p></span>
+    <span class="a2">Computador</span>
+
+    <div id="jogo">
+        <img src="pedra.png" alt="Pedra">
+        <img src="papel.png" alt="Papel">
+        <img src="tesoura1.png" alt="Tesoura">
+    </div>
+
+    <div id="radio_">
+        <br/>
+        <form name="frmJokenpo">
+            <span id="foto1"> <input type="radio" name="grupo" id="pedra">  Pedra </span>
+            <span id="foto2"> <input type="radio" name="grupo" id="papel">  Papel </span>
+            <span id=foto3> <input type="radio" name="grupo" id="tesoura">  Tesoura </span>
+            <br/>
+            <br/>
+        </form>
+            <span id="sbotao1"><input type="button" value="Jogar" id= "botao1" onclick="jogada()"></span>
+            <span id="sbotao2"><input type="reset" value="Resetar" id= "botao2" onclick="resetar()"></span>
+    <br/>
+    <p id="respJogador"></p>
+    </div>
+
+    <div id="computador"> 
+        <img src="" id="pc">
+    </div>
+    <p id="placar">Resultado</p>
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,156 @@
+#quadrado{
+    border: black 0px solid;
+    text-align: center;
+    font-size: 25px;
+}
+
+#SeuNome{
+    font-size: 40px;
+}
+
+body{
+    margin: 0px;
+}
+
+#jogo{
+    border: black 2px solid;
+    /*background-color: cornflowerblue;*/
+    width: 620px;
+    height: 210px;
+    position: fixed;
+    top: 300px;
+    left: 20px;
+}
+
+#computador{
+    border: black 2px solid;
+   /* background-color: coral;*/
+    width: 220px;
+    height: 210px;
+    position: fixed;
+    top: 300px;
+    left: 900px;
+
+}
+
+
+#radio_{
+    border: black 0px solid;
+    /*background-color: yellow;*/
+    width: 620px;
+    height: 70px;
+    position: fixed;
+    top: 520px;
+    left: 20px;
+}
+
+.botao{
+    width: 200px;
+    height: 200px;
+}
+
+.a1{
+    border: black 0px solid;
+    background-color: #FFF;
+    font-size: 40px;
+    color: cornflowerblue;
+    width: 350px;
+    height: 60px;
+    position: fixed;
+    top: 230px;
+    left: 200px;
+}
+
+.a2{
+    border: black 0px solid;
+    background-color: #FFF;
+    font-size: 40px;
+    color: coral;
+    height: 60px;
+    position: fixed;
+    top: 230px;
+    left: 885px;
+}
+
+#NomeEscrito{
+    font-size: 30px;
+    background-color: aliceblue;
+    color: orange;
+}
+
+p{
+    margin-top: auto;
+}
+
+#inserindo{
+    height: 60px;
+    width: 300px;
+    margin: 0px;
+}
+
+#pedra{
+    margin: 0px;
+    padding: 0px;
+}
+
+#papel{
+    margin: 0px;
+    padding: 0px;
+}
+
+#papel{
+    margin: 0px;
+    padding: 0px;
+}
+
+.jogo .computador .botao:hover{
+    background-color: #8b4513;
+}
+
+.jogo .computador .button:not(:last-child){
+    border-right: none;
+  }
+
+ .jogo .computador .button {
+    background-color: #000; /* Green */
+    border: 3px solid #ffff00;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  span{
+
+      margin-left: 50px;
+      margin-right: 50px;
+      font-size: 30px;
+  }
+
+  #botao1{
+      width: 100px;
+      height: 50px;
+  }
+
+  #botao2{
+    width: 100px;
+    height: 50px;
+    right: 10px;
+}
+
+.sbotao1 .sbotao2{
+    left: 50px;
+}
+
+#placar{
+    width: 440px;
+    height: 60px;
+    border: 0px solid purple;
+    margin-top: 350px;
+    margin-left: 802px;
+    font-size: 40px;
+    text-align: center;
+}
